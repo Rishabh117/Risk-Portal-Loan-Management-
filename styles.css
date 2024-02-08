@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 60px auto;
+    padding: 30px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    width: 80%; /* Set the width of the container */
+  margin: 50px auto; /* Center the container horizontally and provide top margin */
+  padding: 20px;
+  background-color:#e2d9ccb0;; /* Semi-transparent white background */
+  border-radius: 10px;
+ 
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #loanModificationForm {
+    margin-top: 10px;
+  }
+  

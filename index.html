@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk Portal</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Risk Portal</h1>
+      <p>Loan Application Assessment</p>
+    </header>
+    <main>
+      <input type="text" id="searchInput" placeholder="Search by Applicant ID or Name">
+      <div id="summarySection" class="section"></div>
+      <div id="loanDetailSection" class="section"></div>
+      <div id="assessmentSection" class="section">
+        <h2>Assessment</h2>
+        <button id="approveBtn" onclick="changeButtonColor(this)">Approve</button>
+        <button id="denyBtn" onclick="changeButtonColor(this)">Deny</button>
+        <button id="modifyBtn" onclick="changeButtonColor(this)">Modify</button>
+        <button id="calculateBtn" onclick="changeButtonColor(this)">Calculate</button>
+        <div id="loanModificationForm" style="display: none;">
+            loanDetailSection.innerHTML = `
+    <h2>Loan Details</h2>
+    <p>Loan Amount Requested: $${newLoanAmount}</p>
+    <p>Loan Term: ${newLoanTerm} months</p>
+    <p>Interest Rate: ${newInterestRate}%</p>
+  `;
+          <input type="number" id="newLoanAmount" placeholder="New Loan Amount">
+          <input type="number" id="newLoanTerm" placeholder="New Loan Term (months)">
+          <input type="number" id="newInterestRate" placeholder="New Interest Rate (%)">
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+  <script src="additional-script.js"></script>
+</body>
+</html>
+
+
