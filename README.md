@@ -4,7 +4,7 @@ This project is a loan management web application developed using HTML, CSS, and
 The application allows users to manage loan applicant data, including searching for applicants,
 displaying summaries, modifying loan details, and calculating payments.
 
-Features:
+**Features:**
 
 Search for applicants by ID or name.
 Display applicant summaries including personal and loan information.
